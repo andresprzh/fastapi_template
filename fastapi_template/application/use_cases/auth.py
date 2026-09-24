@@ -7,7 +7,10 @@ from fastapi_template.application.schemas.user import (
     LoginRequest,
     Token,
 )
-from fastapi_template.application.security.password import hash_password, verify_password
+from fastapi_template.application.security.password import (
+    hash_password,
+    verify_password,
+)
 from fastapi_template.application.security.jwt import create_access_token
 
 
