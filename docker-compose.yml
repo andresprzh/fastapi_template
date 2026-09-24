@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PYTHONUNBUFFERED: '1'
+    volumes:
+      - ./:/app:rw
+      - data:/app/data:rw
+    command: uvicorn fastapi_template.app.main:app --host 0.0.0.0 --port 8000 --reload
+
+volumes:
+  data:

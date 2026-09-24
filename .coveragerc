@@ -1,0 +1,9 @@
+[run]
+branch = True
+source = fastapi_template
+omit =
+    */tests/*
+
+[report]
+show_missing = True
+skip_covered = False
