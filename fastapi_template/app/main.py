@@ -13,8 +13,9 @@ from fastapi_template.infrastructure.api import (
 # Provide OpenAPI metadata and disable default docs URLs so we can customize
 app = FastAPI(
     title="FastAPI Template (Layered)",
-    description="""FastAPI Template with a layered architecture, 
-    including domain models, use cases, and infrastructure (repositories and API routers).""",
+    description="""FastAPI Template with a layered architecture,
+    including domain models, use cases, and infrastructure
+    (repositories and API routers).""",
     version="0.1.0",
     docs_url=None,
     redoc_url=None,
