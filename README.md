@@ -103,3 +103,7 @@ docker compose run --rm web pytest
 ```
 
 The test result are saved in the `test-results` folder, including coverage reports in HTML or XML formats.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
